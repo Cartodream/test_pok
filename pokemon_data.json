@@ -1,0 +1,59 @@
+{
+  "1": {
+    "id": 1,
+    "nom": "Bulbizarre",
+    "type": ["Plante", "Poison"],
+    "taille": "0.7 m",
+    "poids": "6.9 kg",
+    "evolution": {
+      "nom": "Herbizarre",
+      "niveau": 16
+    },
+    "sensibilites": {
+      "faible_contre": ["Feu", "Glace", "Vol", "Psy"],
+      "resistant_contre": ["Eau", "Électrik", "Plante", "Combat"]
+    },
+    "capacites": [
+      {
+        "niveau": 1,
+        "nom": "Charge",
+        "type": "Normal",
+        "description": "Le lanceur charge l'ennemi toute force.",
+        "de": "1d6+2",
+        "effet": "Dégâts physiques"
+      },
+      {
+        "niveau": 3,
+        "nom": "Rugissement",
+        "type": "Normal",
+        "description": "Rugit pour intimider l'ennemi et baisser son Attaque.",
+        "de": "-",
+        "effet": "Baisse l'Attaque de 1"
+      },
+      {
+        "niveau": 7,
+        "nom": "Fouet Lianes",
+        "type": "Plante",
+        "description": "Fouette l'ennemi avec de fines lianes.",
+        "de": "1d8+1",
+        "effet": "Dégâts physiques"
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "nom": "Herbizarre",
+    "type": ["Plante", "Poison"],
+    "taille": "1.0 m",
+    "poids": "13.0 kg",
+    "evolution": {
+      "nom": "Florizarre",
+      "niveau": 32
+    },
+    "sensibilites": {
+      "faible_contre": ["Feu", "Glace", "Vol", "Psy"],
+      "resistant_contre": ["Eau", "Électrik", "Plante", "Combat"]
+    },
+    "capacites": []
+  }
+}

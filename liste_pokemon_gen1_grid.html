@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des Pokémons</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        h1 { text-align: center; color: #333; margin-bottom: 30px; }
+        .pokemon-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+            gap: 15px; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+        }
+        .pokemon-card { 
+            background: white; 
+            border: 2px solid #ddd; 
+            border-radius: 8px; 
+            padding: 15px; 
+            text-align: center; 
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .pokemon-card:hover { 
+            border-color: #007bff; 
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .pokemon-number { 
+            font-size: 14px; 
+            color: #666; 
+            margin-bottom: 5px; 
+        }
+        .pokemon-name { 
+            font-size: 16px; 
+            font-weight: bold; 
+            color: #333; 
+            text-transform: capitalize;
+        }
+        a { 
+            text-decoration: none; 
+            color: inherit; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Liste des Pokémons</h1>
+    <div class="pokemon-grid">
+        <a href="pokemon_new.html?id=1">
+            <div class="pokemon-card">
+                <div class="pokemon-number">1</div>
+                <div class="pokemon-name">bulbizarre</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=2">
+            <div class="pokemon-card">
+                <div class="pokemon-number">2</div>
+                <div class="pokemon-name">Herbizarre</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=3">
+            <div class="pokemon-card">
+                <div class="pokemon-number">3</div>
+                <div class="pokemon-name">Florizarre</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=4">
+            <div class="pokemon-card">
+                <div class="pokemon-number">4</div>
+                <div class="pokemon-name">Salamèche</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=5">
+            <div class="pokemon-card">
+                <div class="pokemon-number">5</div>
+                <div class="pokemon-name">Reptincel</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=6">
+            <div class="pokemon-card">
+                <div class="pokemon-number">6</div>
+                <div class="pokemon-name">dracaufeu</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=7">
+            <div class="pokemon-card">
+                <div class="pokemon-number">7</div>
+                <div class="pokemon-name">carapuce</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=8">
+            <div class="pokemon-card">
+                <div class="pokemon-number">8</div>
+                <div class="pokemon-name">carabaffe</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=9">
+            <div class="pokemon-card">
+                <div class="pokemon-number">9</div>
+                <div class="pokemon-name">tortank</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=10">
+            <div class="pokemon-card">
+                <div class="pokemon-number">10</div>
+                <div class="pokemon-name">chenipan</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=11">
+            <div class="pokemon-card">
+                <div class="pokemon-number">11</div>
+                <div class="pokemon-name">chrysacier</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=12">
+            <div class="pokemon-card">
+                <div class="pokemon-number">12</div>
+                <div class="pokemon-name">papilusion</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=13">
+            <div class="pokemon-card">
+                <div class="pokemon-number">13</div>
+                <div class="pokemon-name">aspicot</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=14">
+            <div class="pokemon-card">
+                <div class="pokemon-number">14</div>
+                <div class="pokemon-name">coconfort</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=15">
+            <div class="pokemon-card">
+                <div class="pokemon-number">15</div>
+                <div class="pokemon-name">dardargnan</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=16">
+            <div class="pokemon-card">
+                <div class="pokemon-number">16</div>
+                <div class="pokemon-name">Roucool</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=17">
+            <div class="pokemon-card">
+                <div class="pokemon-number">17</div>
+                <div class="pokemon-name">roucoups</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=18">
+            <div class="pokemon-card">
+                <div class="pokemon-number">18</div>
+                <div class="pokemon-name">roucarnage</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=19">
+            <div class="pokemon-card">
+                <div class="pokemon-number">19</div>
+                <div class="pokemon-name">rattata</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=20">
+            <div class="pokemon-card">
+                <div class="pokemon-number">20</div>
+                <div class="pokemon-name">rattatac</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=21">
+            <div class="pokemon-card">
+                <div class="pokemon-number">21</div>
+                <div class="pokemon-name">piafabec</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=22">
+            <div class="pokemon-card">
+                <div class="pokemon-number">22</div>
+                <div class="pokemon-name">rapasdepic</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=23">
+            <div class="pokemon-card">
+                <div class="pokemon-number">23</div>
+                <div class="pokemon-name">abo</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=24">
+            <div class="pokemon-card">
+                <div class="pokemon-number">24</div>
+                <div class="pokemon-name">arbok</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=25">
+            <div class="pokemon-card">
+                <div class="pokemon-number">25</div>
+                <div class="pokemon-name">pikachu</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=26">
+            <div class="pokemon-card">
+                <div class="pokemon-number">26</div>
+                <div class="pokemon-name">raichu</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=27">
+            <div class="pokemon-card">
+                <div class="pokemon-number">27</div>
+                <div class="pokemon-name">sabelette</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=28">
+            <div class="pokemon-card">
+                <div class="pokemon-number">28</div>
+                <div class="pokemon-name">sablaireau</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=29">
+            <div class="pokemon-card">
+                <div class="pokemon-number">29</div>
+                <div class="pokemon-name">nidoran♀</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=30">
+            <div class="pokemon-card">
+                <div class="pokemon-number">30</div>
+                <div class="pokemon-name">nidorina</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=31">
+            <div class="pokemon-card">
+                <div class="pokemon-number">31</div>
+                <div class="pokemon-name">nidoqueen</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=32">
+            <div class="pokemon-card">
+                <div class="pokemon-number">32</div>
+                <div class="pokemon-name">nidoran♂</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=33">
+            <div class="pokemon-card">
+                <div class="pokemon-number">33</div>
+                <div class="pokemon-name">nidorino</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=34">
+            <div class="pokemon-card">
+                <div class="pokemon-number">34</div>
+                <div class="pokemon-name">nidoking</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=35">
+            <div class="pokemon-card">
+                <div class="pokemon-number">35</div>
+                <div class="pokemon-name">Mélofée</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=36">
+            <div class="pokemon-card">
+                <div class="pokemon-number">36</div>
+                <div class="pokemon-name">Mélodelfe</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=37">
+            <div class="pokemon-card">
+                <div class="pokemon-number">37</div>
+                <div class="pokemon-name">goupix</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=38">
+            <div class="pokemon-card">
+                <div class="pokemon-number">38</div>
+                <div class="pokemon-name">feunard</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=39">
+            <div class="pokemon-card">
+                <div class="pokemon-number">39</div>
+                <div class="pokemon-name">rondoudou</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=40">
+            <div class="pokemon-card">
+                <div class="pokemon-number">40</div>
+                <div class="pokemon-name">grodoudou</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=41">
+            <div class="pokemon-card">
+                <div class="pokemon-number">41</div>
+                <div class="pokemon-name">nosferapti</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=42">
+            <div class="pokemon-card">
+                <div class="pokemon-number">42</div>
+                <div class="pokemon-name">nosferalto</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=43">
+            <div class="pokemon-card">
+                <div class="pokemon-number">43</div>
+                <div class="pokemon-name">Mystherbe</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=44">
+            <div class="pokemon-card">
+                <div class="pokemon-number">44</div>
+                <div class="pokemon-name">ortide</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=45">
+            <div class="pokemon-card">
+                <div class="pokemon-number">45</div>
+                <div class="pokemon-name">rafflesia</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=46">
+            <div class="pokemon-card">
+                <div class="pokemon-number">46</div>
+                <div class="pokemon-name">paras</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=47">
+            <div class="pokemon-card">
+                <div class="pokemon-number">47</div>
+                <div class="pokemon-name">parasect</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=48">
+            <div class="pokemon-card">
+                <div class="pokemon-number">48</div>
+                <div class="pokemon-name">mimitoss</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=49">
+            <div class="pokemon-card">
+                <div class="pokemon-number">49</div>
+                <div class="pokemon-name">Aéromite</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=50">
+            <div class="pokemon-card">
+                <div class="pokemon-number">50</div>
+                <div class="pokemon-name">taupiqueur</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=51">
+            <div class="pokemon-card">
+                <div class="pokemon-number">51</div>
+                <div class="pokemon-name">triopikeur</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=52">
+            <div class="pokemon-card">
+                <div class="pokemon-number">52</div>
+                <div class="pokemon-name">miaouss</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=53">
+            <div class="pokemon-card">
+                <div class="pokemon-number">53</div>
+                <div class="pokemon-name">persian</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=54">
+            <div class="pokemon-card">
+                <div class="pokemon-number">54</div>
+                <div class="pokemon-name">psykokwak</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=55">
+            <div class="pokemon-card">
+                <div class="pokemon-number">55</div>
+                <div class="pokemon-name">akwakwak</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=56">
+            <div class="pokemon-card">
+                <div class="pokemon-number">56</div>
+                <div class="pokemon-name">férosinge</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=57">
+            <div class="pokemon-card">
+                <div class="pokemon-number">57</div>
+                <div class="pokemon-name">colossinge</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=58">
+            <div class="pokemon-card">
+                <div class="pokemon-number">58</div>
+                <div class="pokemon-name">caninos</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=59">
+            <div class="pokemon-card">
+                <div class="pokemon-number">59</div>
+                <div class="pokemon-name">arcanin</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=60">
+            <div class="pokemon-card">
+                <div class="pokemon-number">60</div>
+                <div class="pokemon-name">ptitard</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=61">
+            <div class="pokemon-card">
+                <div class="pokemon-number">61</div>
+                <div class="pokemon-name">têtarte</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=62">
+            <div class="pokemon-card">
+                <div class="pokemon-number">62</div>
+                <div class="pokemon-name">tartard</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=63">
+            <div class="pokemon-card">
+                <div class="pokemon-number">63</div>
+                <div class="pokemon-name">abra</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=64">
+            <div class="pokemon-card">
+                <div class="pokemon-number">64</div>
+                <div class="pokemon-name">kadabra</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=65">
+            <div class="pokemon-card">
+                <div class="pokemon-number">65</div>
+                <div class="pokemon-name">alakazam</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=66">
+            <div class="pokemon-card">
+                <div class="pokemon-number">66</div>
+                <div class="pokemon-name">machoc</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=67">
+            <div class="pokemon-card">
+                <div class="pokemon-number">67</div>
+                <div class="pokemon-name">Machopeur</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=68">
+            <div class="pokemon-card">
+                <div class="pokemon-number">68</div>
+                <div class="pokemon-name">mackogneur</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=69">
+            <div class="pokemon-card">
+                <div class="pokemon-number">69</div>
+                <div class="pokemon-name">chétiflor</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=70">
+            <div class="pokemon-card">
+                <div class="pokemon-number">70</div>
+                <div class="pokemon-name">boustiflor</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=71">
+            <div class="pokemon-card">
+                <div class="pokemon-number">71</div>
+                <div class="pokemon-name">empiflor</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=72">
+            <div class="pokemon-card">
+                <div class="pokemon-number">72</div>
+                <div class="pokemon-name">tentacool</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=73">
+            <div class="pokemon-card">
+                <div class="pokemon-number">73</div>
+                <div class="pokemon-name">tentacruel</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=74">
+            <div class="pokemon-card">
+                <div class="pokemon-number">74</div>
+                <div class="pokemon-name">racaillou</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=75">
+            <div class="pokemon-card">
+                <div class="pokemon-number">75</div>
+                <div class="pokemon-name">gravalanch</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=76">
+            <div class="pokemon-card">
+                <div class="pokemon-number">76</div>
+                <div class="pokemon-name">grolem</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=77">
+            <div class="pokemon-card">
+                <div class="pokemon-number">77</div>
+                <div class="pokemon-name">Ponyta</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=78">
+            <div class="pokemon-card">
+                <div class="pokemon-number">78</div>
+                <div class="pokemon-name">galopa</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=79">
+            <div class="pokemon-card">
+                <div class="pokemon-number">79</div>
+                <div class="pokemon-name">ramoloss</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=80">
+            <div class="pokemon-card">
+                <div class="pokemon-number">80</div>
+                <div class="pokemon-name">flagadoss</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=81">
+            <div class="pokemon-card">
+                <div class="pokemon-number">81</div>
+                <div class="pokemon-name">Magnéti</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=82">
+            <div class="pokemon-card">
+                <div class="pokemon-number">82</div>
+                <div class="pokemon-name">magnéton</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=83">
+            <div class="pokemon-card">
+                <div class="pokemon-number">83</div>
+                <div class="pokemon-name">Canarticho</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=84">
+            <div class="pokemon-card">
+                <div class="pokemon-number">84</div>
+                <div class="pokemon-name">doduo</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=85">
+            <div class="pokemon-card">
+                <div class="pokemon-number">85</div>
+                <div class="pokemon-name">dodrio</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=86">
+            <div class="pokemon-card">
+                <div class="pokemon-number">86</div>
+                <div class="pokemon-name">Otaria</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=87">
+            <div class="pokemon-card">
+                <div class="pokemon-number">87</div>
+                <div class="pokemon-name">Lamantine</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=88">
+            <div class="pokemon-card">
+                <div class="pokemon-number">88</div>
+                <div class="pokemon-name">tadmorv</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=89">
+            <div class="pokemon-card">
+                <div class="pokemon-number">89</div>
+                <div class="pokemon-name">grotadmorv</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=90">
+            <div class="pokemon-card">
+                <div class="pokemon-number">90</div>
+                <div class="pokemon-name">kokiyas</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=91">
+            <div class="pokemon-card">
+                <div class="pokemon-number">91</div>
+                <div class="pokemon-name">crustabri</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=92">
+            <div class="pokemon-card">
+                <div class="pokemon-number">92</div>
+                <div class="pokemon-name">fantominus</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=93">
+            <div class="pokemon-card">
+                <div class="pokemon-number">93</div>
+                <div class="pokemon-name">spectrum</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=94">
+            <div class="pokemon-card">
+                <div class="pokemon-number">94</div>
+                <div class="pokemon-name">ectoplasma</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=95">
+            <div class="pokemon-card">
+                <div class="pokemon-number">95</div>
+                <div class="pokemon-name">onix</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=96">
+            <div class="pokemon-card">
+                <div class="pokemon-number">96</div>
+                <div class="pokemon-name">soporifik</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=97">
+            <div class="pokemon-card">
+                <div class="pokemon-number">97</div>
+                <div class="pokemon-name">hypnomade</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=98">
+            <div class="pokemon-card">
+                <div class="pokemon-number">98</div>
+                <div class="pokemon-name">Krabby</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=99">
+            <div class="pokemon-card">
+                <div class="pokemon-number">99</div>
+                <div class="pokemon-name">krabboss</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=100">
+            <div class="pokemon-card">
+                <div class="pokemon-number">100</div>
+                <div class="pokemon-name">voltorbe</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=101">
+            <div class="pokemon-card">
+                <div class="pokemon-number">101</div>
+                <div class="pokemon-name">électrode</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=102">
+            <div class="pokemon-card">
+                <div class="pokemon-number">102</div>
+                <div class="pokemon-name">noeunoeuf</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=103">
+            <div class="pokemon-card">
+                <div class="pokemon-number">103</div>
+                <div class="pokemon-name">noadkoko</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=104">
+            <div class="pokemon-card">
+                <div class="pokemon-number">104</div>
+                <div class="pokemon-name">osselait</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=105">
+            <div class="pokemon-card">
+                <div class="pokemon-number">105</div>
+                <div class="pokemon-name">ossatueur</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=106">
+            <div class="pokemon-card">
+                <div class="pokemon-number">106</div>
+                <div class="pokemon-name">kicklee</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=107">
+            <div class="pokemon-card">
+                <div class="pokemon-number">107</div>
+                <div class="pokemon-name">tygnon</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=108">
+            <div class="pokemon-card">
+                <div class="pokemon-number">108</div>
+                <div class="pokemon-name">Excelangue</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=109">
+            <div class="pokemon-card">
+                <div class="pokemon-number">109</div>
+                <div class="pokemon-name">smogo</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=110">
+            <div class="pokemon-card">
+                <div class="pokemon-number">110</div>
+                <div class="pokemon-name">smogogo</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=111">
+            <div class="pokemon-card">
+                <div class="pokemon-number">111</div>
+                <div class="pokemon-name">Rhinocorne</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=112">
+            <div class="pokemon-card">
+                <div class="pokemon-number">112</div>
+                <div class="pokemon-name">Rhinoféros</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=113">
+            <div class="pokemon-card">
+                <div class="pokemon-number">113</div>
+                <div class="pokemon-name">leveinard</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=114">
+            <div class="pokemon-card">
+                <div class="pokemon-number">114</div>
+                <div class="pokemon-name">saquedeneu</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=115">
+            <div class="pokemon-card">
+                <div class="pokemon-number">115</div>
+                <div class="pokemon-name">kangourex</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=116">
+            <div class="pokemon-card">
+                <div class="pokemon-number">116</div>
+                <div class="pokemon-name">hypotrempe</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=117">
+            <div class="pokemon-card">
+                <div class="pokemon-number">117</div>
+                <div class="pokemon-name">hypocéan</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=118">
+            <div class="pokemon-card">
+                <div class="pokemon-number">118</div>
+                <div class="pokemon-name">poissirène</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=119">
+            <div class="pokemon-card">
+                <div class="pokemon-number">119</div>
+                <div class="pokemon-name">poissoroy</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=120">
+            <div class="pokemon-card">
+                <div class="pokemon-number">120</div>
+                <div class="pokemon-name">stari</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=121">
+            <div class="pokemon-card">
+                <div class="pokemon-number">121</div>
+                <div class="pokemon-name">staross</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=122">
+            <div class="pokemon-card">
+                <div class="pokemon-number">122</div>
+                <div class="pokemon-name">m.mime</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=123">
+            <div class="pokemon-card">
+                <div class="pokemon-number">123</div>
+                <div class="pokemon-name">insécateur</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=124">
+            <div class="pokemon-card">
+                <div class="pokemon-number">124</div>
+                <div class="pokemon-name">lippoutou</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=125">
+            <div class="pokemon-card">
+                <div class="pokemon-number">125</div>
+                <div class="pokemon-name">élektek</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=126">
+            <div class="pokemon-card">
+                <div class="pokemon-number">126</div>
+                <div class="pokemon-name">magmar</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=127">
+            <div class="pokemon-card">
+                <div class="pokemon-number">127</div>
+                <div class="pokemon-name">scarabrute</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=128">
+            <div class="pokemon-card">
+                <div class="pokemon-number">128</div>
+                <div class="pokemon-name">tauros</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=129">
+            <div class="pokemon-card">
+                <div class="pokemon-number">129</div>
+                <div class="pokemon-name">Magicarpe</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=130">
+            <div class="pokemon-card">
+                <div class="pokemon-number">130</div>
+                <div class="pokemon-name">léviator</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=131">
+            <div class="pokemon-card">
+                <div class="pokemon-number">131</div>
+                <div class="pokemon-name">lokhlass</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=132">
+            <div class="pokemon-card">
+                <div class="pokemon-number">132</div>
+                <div class="pokemon-name">métamorph</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=133">
+            <div class="pokemon-card">
+                <div class="pokemon-number">133</div>
+                <div class="pokemon-name">évoli</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=134">
+            <div class="pokemon-card">
+                <div class="pokemon-number">134</div>
+                <div class="pokemon-name">aquali</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=135">
+            <div class="pokemon-card">
+                <div class="pokemon-number">135</div>
+                <div class="pokemon-name">voltali</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=136">
+            <div class="pokemon-card">
+                <div class="pokemon-number">136</div>
+                <div class="pokemon-name">pyroli</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=137">
+            <div class="pokemon-card">
+                <div class="pokemon-number">137</div>
+                <div class="pokemon-name">porygon</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=138">
+            <div class="pokemon-card">
+                <div class="pokemon-number">138</div>
+                <div class="pokemon-name">amonita</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=139">
+            <div class="pokemon-card">
+                <div class="pokemon-number">139</div>
+                <div class="pokemon-name">amonistar</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=140">
+            <div class="pokemon-card">
+                <div class="pokemon-number">140</div>
+                <div class="pokemon-name">kabuto</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=141">
+            <div class="pokemon-card">
+                <div class="pokemon-number">141</div>
+                <div class="pokemon-name">kabutops</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=142">
+            <div class="pokemon-card">
+                <div class="pokemon-number">142</div>
+                <div class="pokemon-name">Ptéra</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=143">
+            <div class="pokemon-card">
+                <div class="pokemon-number">143</div>
+                <div class="pokemon-name">ronflex</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=144">
+            <div class="pokemon-card">
+                <div class="pokemon-number">144</div>
+                <div class="pokemon-name">artikodin</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=145">
+            <div class="pokemon-card">
+                <div class="pokemon-number">145</div>
+                <div class="pokemon-name">électhor</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=146">
+            <div class="pokemon-card">
+                <div class="pokemon-number">146</div>
+                <div class="pokemon-name">sulfura</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=147">
+            <div class="pokemon-card">
+                <div class="pokemon-number">147</div>
+                <div class="pokemon-name">minidraco</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=148">
+            <div class="pokemon-card">
+                <div class="pokemon-number">148</div>
+                <div class="pokemon-name">draco</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=149">
+            <div class="pokemon-card">
+                <div class="pokemon-number">149</div>
+                <div class="pokemon-name">dracolosse</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=150">
+            <div class="pokemon-card">
+                <div class="pokemon-number">150</div>
+                <div class="pokemon-name">mewtwo</div>
+            </div>
+        </a>
+        <a href="pokemon_new.html?id=151">
+            <div class="pokemon-card">
+                <div class="pokemon-number">151</div>
+                <div class="pokemon-name">mew</div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>

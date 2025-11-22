@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon - Hakai Kousen</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1000px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .pokemon-header { text-align: center; margin-bottom: 30px; }
+        .pokemon-name { font-size: 2.5em; color: #333; margin: 10px 0; }
+        .pokemon-id { font-size: 1.2em; color: #666; }
+        .pokemon-types { display: flex; justify-content: center; gap: 10px; margin: 15px 0; }
+        .type-badge { padding: 5px 15px; border-radius: 20px; color: white; font-weight: bold; }
+        .type-plante { background-color: #78C850; }
+        .type-poison { background-color: #A040A0; }
+        .type-feu { background-color: #F08030; }
+        .type-eau { background-color: #6890F0; }
+        .type-normal { background-color: #A8A878; }
+        .type-electrik { background-color: #F8D030; }
+        .type-glace { background-color: #98D8D8; }
+        .type-vol { background-color: #A890F0; }
+        .type-psy { background-color: #F85888; }
+        .type-combat { background-color: #C03028; }
+        
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px 0; }
+        .info-section { background: #f9f9f9; padding: 15px; border-radius: 8px; }
+        .info-section h3 { margin-top: 0; color: #333; border-bottom: 2px solid #ddd; padding-bottom: 5px; }
+        .info-row { display: flex; justify-content: space-between; margin: 8px 0; }
+        .info-label { font-weight: bold; }
+        
+        .evolution-section { grid-column: span 2; }
+        .sensibilites-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .sensibilite-group h4 { margin: 0 0 10px 0; color: #555; }
+        .sensibilite-list { display: flex; flex-wrap: wrap; gap: 5px; }
+        .sensibilite-badge { padding: 3px 8px; border-radius: 12px; font-size: 0.9em; color: white; }
+        
+        .capacites-section { margin-top: 30px; }
+        .capacites-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .capacites-table th, .capacites-table td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        .capacites-table th { background-color: #f2f2f2; font-weight: bold; }
+        .capacites-table tr:nth-child(even) { background-color: #f9f9f9; }
+        .niveau-badge { background: #007bff; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.9em; }
+        
+        .back-link { display: inline-block; margin-bottom: 20px; color: #007bff; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+        .error { text-align: center; color: #d32f2f; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="liste_pokemon_gen1_grid.html" class="back-link">← Retour à la liste</a>
+        
+        <div id="pokemon-content">
+            <div class="error">Chargement...</div>
+        </div>
+    </div>
+
+    <script>
+        async function loadPokemonData() {
+            try {
+                const response = await fetch('pokemon_data.json');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Erreur lors du chargement des données:', error);
+                return null;
+            }
+        }
+
+        function getTypeClass(type) {
+            return 'type-' + type.toLowerCase().replace('é', 'e');
+        }
+
+        function displayPokemon(pokemon) {
+            const content = document.getElementById('pokemon-content');
+            
+            const typesHtml = pokemon.type.map(type => 
+                `<span class="type-badge ${getTypeClass(type)}">${type}</span>`
+            ).join('');
+
+            const evolutionHtml = pokemon.evolution ? `
+                <div class="info-section evolution-section">
+                    <h3>Évolution</h3>
+                    <div class="info-row">
+                        <span class="info-label">Évolue en:</span>
+                        <span>${pokemon.evolution.nom} (niveau ${pokemon.evolution.niveau})</span>
+                    </div>
+                </div>
+            ` : '';
+
+            const sensibilitesHtml = `
+                <div class="info-section">
+                    <h3>Sensibilités</h3>
+                    <div class="sensibilites-grid">
+                        <div class="sensibilite-group">
+                            <h4>Faible contre:</h4>
+                            <div class="sensibilite-list">
+                                ${pokemon.sensibilites.faible_contre.map(type => 
+                                    `<span class="sensibilite-badge ${getTypeClass(type)}">${type}</span>`
+                                ).join('')}
+                            </div>
+                        </div>
+                        <div class="sensibilite-group">
+                            <h4>Résistant contre:</h4>
+                            <div class="sensibilite-list">
+                                ${pokemon.sensibilites.resistant_contre.map(type => 
+                                    `<span class="sensibilite-badge ${getTypeClass(type)}">${type}</span>`
+                                ).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            const capacitesHtml = pokemon.capacites.length > 0 ? `
+                <div class="capacites-section">
+                    <h3>Capacités apprises par expérience</h3>
+                    <table class="capacites-table">
+                        <thead>
+                            <tr>
+                                <th>Niveau</th>
+                                <th>Nom</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                                <th>Dé</th>
+                                <th>Effet</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${pokemon.capacites.map(capacite => `
+                                <tr>
+                                    <td><span class="niveau-badge">${capacite.niveau}</span></td>
+                                    <td><strong>${capacite.nom}</strong></td>
+                                    <td><span class="type-badge ${getTypeClass(capacite.type)}">${capacite.type}</span></td>
+                                    <td>${capacite.description}</td>
+                                    <td>${capacite.de}</td>
+                                    <td>${capacite.effet}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            ` : '<div class="capacites-section"><p>Aucune capacité renseignée pour le moment.</p></div>';
+
+            content.innerHTML = `
+                <div class="pokemon-header">
+                    <div class="pokemon-id">#${pokemon.id.toString().padStart(3, '0')}</div>
+                    <h1 class="pokemon-name">${pokemon.nom}</h1>
+                    <div class="pokemon-types">${typesHtml}</div>
+                </div>
+                
+                <div class="info-grid">
+                    <div class="info-section">
+                        <h3>Informations générales</h3>
+                        <div class="info-row">
+                            <span class="info-label">Taille:</span>
+                            <span>${pokemon.taille}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Poids:</span>
+                            <span>${pokemon.poids}</span>
+                        </div>
+                    </div>
+                    
+                    ${sensibilitesHtml}
+                    ${evolutionHtml}
+                </div>
+                
+                ${capacitesHtml}
+            `;
+        }
+
+        async function init() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const pokemonId = urlParams.get('id');
+            
+            if (!pokemonId) {
+                document.getElementById('pokemon-content').innerHTML = 
+                    '<div class="error">Aucun Pokémon spécifié. Veuillez sélectionner un Pokémon depuis la liste.</div>';
+                return;
+            }
+
+            const data = await loadPokemonData();
+            
+            if (!data) {
+                document.getElementById('pokemon-content').innerHTML = 
+                    '<div class="error">Erreur lors du chargement des données.</div>';
+                return;
+            }
+
+            const pokemon = data[pokemonId];
+            
+            if (!pokemon) {
+                document.getElementById('pokemon-content').innerHTML = 
+                    '<div class="error">Pokémon non trouvé.</div>';
+                return;
+            }
+
+            displayPokemon(pokemon);
+            document.title = `${pokemon.nom} - Hakai Kousen`;
+        }
+
+        init();
+    </script>
+</body>
+</html>

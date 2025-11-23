@@ -8,6 +8,7 @@
     ],
     "taille": "0.7 m",
     "poids": "6.9 kg",
+    "exp_base": 64,
     "evolution": {
       "nom": "Herbizarre",
       "niveau": 16
@@ -45,7 +46,7 @@
         "niveau": 7,
         "attaque": "fouet_lianes"
       },
-    {
+      {
         "niveau": 9,
         "attaque": "vampigraine"
       },
@@ -53,7 +54,6 @@
         "niveau": 13,
         "attaque": "poudre_toxik"
       },
-    
       {
         "niveau": 13,
         "attaque": "poudre_dodo"
@@ -62,7 +62,7 @@
         "niveau": 15,
         "attaque": "belier"
       },
-    {
+      {
         "niveau": 19,
         "attaque": "tranch_herbe"
       },
@@ -101,6 +101,7 @@
     ],
     "taille": "1.0 m",
     "poids": "13.0 kg",
+    "exp_base": 142,
     "evolution": {
       "nom": "Florizarre",
       "niveau": 32
@@ -283,7 +284,8 @@
         "niveau": 53,
         "attaque": "lance_soleil"
       }
-    ]
+    ],
+    "exp_base": 236
   },
   "4": {
     "id": 4,
@@ -370,7 +372,8 @@
         "niveau": 46,
         "attaque": "feu_d_enfer"
       }
-    ]
+    ],
+    "exp_base": 62
   },
   "5": {
     "id": 5,
@@ -453,7 +456,8 @@
         "niveau": 54,
         "attaque": "feu_d_enfer"
       }
-    ]
+    ],
+    "exp_base": 142
   },
   "6": {
     "id": 6,
@@ -570,7 +574,8 @@
         "niveau": 77,
         "attaque": "boutefeu"
       }
-    ]
+    ],
+    "exp_base": 240
   },
   "7": {
     "id": 7,
@@ -669,7 +674,8 @@
         "niveau": 40,
         "attaque": "hydrocanon"
       }
-    ]
+    ],
+    "exp_base": 63
   },
   "8": {
     "id": 8,
@@ -768,7 +774,8 @@
         "niveau": 49,
         "attaque": "hydrocanon"
       }
-    ]
+    ],
+    "exp_base": 142
   },
   "9": {
     "id": 9,
@@ -872,7 +879,8 @@
         "niveau": 60,
         "attaque": "hydrocanon"
       }
-    ]
+    ],
+    "exp_base": 239
   },
   "10": {
     "id": 10,
@@ -919,7 +927,8 @@
         "niveau": 9,
         "attaque": "piqure"
       }
-    ]
+    ],
+    "exp_base": 39
   },
   "11": {
     "id": 11,
@@ -966,7 +975,8 @@
         "niveau": 8,
         "attaque": "armure"
       }
-    ]
+    ],
+    "exp_base": 72
   },
   "12": {
     "id": 12,
@@ -998,7 +1008,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 178
   },
   "13": {
     "id": 13,
@@ -1033,7 +1044,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 39
   },
   "14": {
     "id": 14,
@@ -1068,7 +1080,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 72
   },
   "15": {
     "id": 15,
@@ -1100,7 +1113,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 178
   },
   "16": {
     "id": 16,
@@ -1135,7 +1149,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 50
   },
   "17": {
     "id": 17,
@@ -1170,7 +1185,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 122
   },
   "18": {
     "id": 18,
@@ -1202,7 +1218,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 216
   },
   "19": {
     "id": 19,
@@ -1236,7 +1253,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 51
   },
   "20": {
     "id": 20,
@@ -1267,7 +1285,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 145
   },
   "21": {
     "id": 21,
@@ -1302,7 +1321,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 52
   },
   "22": {
     "id": 22,
@@ -1334,7 +1354,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 162
   },
   "23": {
     "id": 23,
@@ -1368,7 +1389,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 62
   },
   "24": {
     "id": 24,
@@ -1399,7 +1421,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 147
   },
   "25": {
     "id": 25,
@@ -1510,7 +1533,8 @@
         "niveau": 58,
         "attaque": "fatal_foudre"
       }
-    ]
+    ],
+    "exp_base": 112
   },
   "26": {
     "id": 26,
@@ -1541,7 +1565,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 218
   },
   "27": {
     "id": 27,
@@ -1648,7 +1673,8 @@
         "niveau": 46,
         "attaque": "seisme"
       }
-    ]
+    ],
+    "exp_base": 60
   },
   "28": {
     "id": 28,
@@ -1679,7 +1705,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 158
   },
   "29": {
     "id": 29,
@@ -1713,7 +1740,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 55
   },
   "30": {
     "id": 30,
@@ -1747,7 +1775,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 128
   },
   "31": {
     "id": 31,
@@ -1779,7 +1808,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 227
   },
   "32": {
     "id": 32,
@@ -1813,7 +1843,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 55
   },
   "33": {
     "id": 33,
@@ -1847,7 +1878,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 128
   },
   "34": {
     "id": 34,
@@ -1879,7 +1911,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 227
   },
   "35": {
     "id": 35,
@@ -1913,7 +1946,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 113
   },
   "36": {
     "id": 36,
@@ -1944,7 +1978,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 217
   },
   "37": {
     "id": 37,
@@ -2063,7 +2098,8 @@
         "niveau": 50,
         "attaque": "feu_d_enfer"
       }
-    ]
+    ],
+    "exp_base": 60
   },
   "38": {
     "id": 38,
@@ -2094,7 +2130,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 178
   },
   "39": {
     "id": 39,
@@ -2129,7 +2166,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 95
   },
   "40": {
     "id": 40,
@@ -2161,7 +2199,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 196
   },
   "41": {
     "id": 41,
@@ -2196,7 +2235,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 49
   },
   "42": {
     "id": 42,
@@ -2228,7 +2268,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 159
   },
   "43": {
     "id": 43,
@@ -2263,7 +2304,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 64
   },
   "44": {
     "id": 44,
@@ -2298,7 +2340,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 138
   },
   "45": {
     "id": 45,
@@ -2330,7 +2373,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 221
   },
   "46": {
     "id": 46,
@@ -2365,7 +2409,69 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 2,
+        "attaque": "poudre_dodo"
+      },
+      {
+        "niveau": 4,
+        "attaque": "para_spore"
+      },
+      {
+        "niveau": 6,
+        "attaque": "poudre_toxik"
+      },
+      {
+        "niveau": 11,
+        "attaque": "vole_vie"
+      },
+      {
+        "niveau": 15,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 17,
+        "attaque": "taillade"
+      },
+      {
+        "niveau": 22,
+        "attaque": "spore"
+      },
+      {
+        "niveau": 23,
+        "attaque": "vampirisme"
+      },
+      {
+        "niveau": 27,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 33,
+        "attaque": "croissance"
+      },
+      {
+        "niveau": 38,
+        "attaque": "giga_sangsue"
+      },
+      {
+        "niveau": 43,
+        "attaque": "aromatherapie"
+      },
+      {
+        "niveau": 49,
+        "attaque": "poudre_fureur"
+      },
+      {
+        "niveau": 54,
+        "attaque": "plaie_croix"
+      }
+    ],
+    "exp_base": 57
   },
   "47": {
     "id": 47,
@@ -2397,7 +2503,81 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 2,
+        "attaque": "poudre_dodo"
+      },
+      {
+        "niveau": 4,
+        "attaque": "para_spore"
+      },
+      {
+        "niveau": 6,
+        "attaque": "poudre_toxik"
+      },
+      {
+        "niveau": 11,
+        "attaque": "vole_vie"
+      },
+      {
+        "niveau": 15,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 17,
+        "attaque": "taillade"
+      },
+      {
+        "niveau": 22,
+        "attaque": "spore"
+      },
+      {
+        "niveau": 23,
+        "attaque": "vampirisme"
+      },
+      {
+        "niveau": 25,
+        "attaque": "grincement"
+      },
+      {
+        "niveau": 25,
+        "attaque": "poison_croix"
+      },
+      {
+        "niveau": 25,
+        "attaque": "vampigraine"
+      },
+      {
+        "niveau": 29,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 37,
+        "attaque": "croissance"
+      },
+      {
+        "niveau": 44,
+        "attaque": "giga_sangsue"
+      },
+      {
+        "niveau": 51,
+        "attaque": "aromatherapie"
+      },
+      {
+        "niveau": 59,
+        "attaque": "poudre_fureur"
+      },
+      {
+        "niveau": 66,
+        "attaque": "plaie_croix"
+      }
+    ],
+    "exp_base": 142
   },
   "48": {
     "id": 48,
@@ -2485,7 +2665,8 @@
         "niveau": 47,
         "attaque": "psyko"
       }
-    ]
+    ],
+    "exp_base": 61
   },
   "49": {
     "id": 49,
@@ -2517,7 +2698,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 158
   },
   "50": {
     "id": 50,
@@ -2551,7 +2733,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 53
   },
   "51": {
     "id": 51,
@@ -2582,7 +2765,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 153
   },
   "52": {
     "id": 52,
@@ -2592,6 +2776,7 @@
     ],
     "taille": "0.4 m",
     "poids": "4.2 kg",
+    "exp_base": 58,
     "evolution": {
       "nom": "Persian",
       "niveau": 28
@@ -2691,6 +2876,7 @@
     ],
     "taille": "1.0 m",
     "poids": "32.0 kg",
+    "exp_base": 154,
     "evolution": "n'évolue pas",
     "sensibilites": {
       "Normal": 1.0,
@@ -2712,7 +2898,72 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 1,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 6,
+        "attaque": "morsure"
+      },
+      {
+        "niveau": 9,
+        "attaque": "bluff"
+      },
+      {
+        "niveau": 14,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 17,
+        "attaque": "grincement"
+      },
+      {
+        "niveau": 22,
+        "attaque": "feinte"
+      },
+      {
+        "niveau": 25,
+        "attaque": "provoc"
+      },
+      {
+        "niveau": 30,
+        "attaque": "jackpot"
+      },
+      {
+        "niveau": 32,
+        "attaque": "rayon_gemme"
+      },
+      {
+        "niveau": 37,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 44,
+        "attaque": "machination"
+      },
+      {
+        "niveau": 49,
+        "attaque": "assurance"
+      },
+      {
+        "niveau": 56,
+        "attaque": "seduction"
+      },
+      {
+        "niveau": 61,
+        "attaque": "tranche_nuit"
+      },
+      {
+        "niveau": 65,
+        "attaque": "ruse"
+      }
+    ]
   },
   "54": {
     "id": 54,
@@ -2819,7 +3070,8 @@
         "niveau": 43,
         "attaque": "zone_etrange"
       }
-    ]
+    ],
+    "exp_base": 62
   },
   "55": {
     "id": 55,
@@ -2939,7 +3191,8 @@
         "niveau": 51,
         "attaque": "zone_etrange"
       }
-    ]
+    ],
+    "exp_base": 175
   },
   "56": {
     "id": 56,
@@ -2973,7 +3226,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 61
   },
   "57": {
     "id": 57,
@@ -3004,7 +3258,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 159
   },
   "58": {
     "id": 58,
@@ -3115,7 +3370,8 @@
         "niveau": 45,
         "attaque": "boutefeu"
       }
-    ]
+    ],
+    "exp_base": 70
   },
   "59": {
     "id": 59,
@@ -3146,7 +3402,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 194
   },
   "60": {
     "id": 60,
@@ -3241,7 +3498,8 @@
         "niveau": 41,
         "attaque": "boue_bombe"
       }
-    ]
+    ],
+    "exp_base": 60
   },
   "61": {
     "id": 61,
@@ -3275,7 +3533,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 135
   },
   "62": {
     "id": 62,
@@ -3307,7 +3566,8 @@
       "Acier": 0.5,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 225
   },
   "63": {
     "id": 63,
@@ -3341,7 +3601,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 62
   },
   "64": {
     "id": 64,
@@ -3375,7 +3636,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 140
   },
   "65": {
     "id": 65,
@@ -3406,7 +3668,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 225
   },
   "66": {
     "id": 66,
@@ -3440,7 +3703,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 61
   },
   "67": {
     "id": 67,
@@ -3474,7 +3738,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 142
   },
   "68": {
     "id": 68,
@@ -3505,7 +3770,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 227
   },
   "69": {
     "id": 69,
@@ -3540,7 +3806,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 64
   },
   "70": {
     "id": 70,
@@ -3575,7 +3842,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 138
   },
   "71": {
     "id": 71,
@@ -3607,7 +3875,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 221
   },
   "72": {
     "id": 72,
@@ -3642,7 +3911,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 67
   },
   "73": {
     "id": 73,
@@ -3674,7 +3944,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 180
   },
   "74": {
     "id": 74,
@@ -3709,7 +3980,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 60
   },
   "75": {
     "id": 75,
@@ -3744,7 +4016,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 134
   },
   "76": {
     "id": 76,
@@ -3776,7 +4049,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 223
   },
   "77": {
     "id": 77,
@@ -3810,7 +4084,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 82
   },
   "78": {
     "id": 78,
@@ -3841,7 +4116,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 175
   },
   "79": {
     "id": 79,
@@ -3876,7 +4152,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 63
   },
   "80": {
     "id": 80,
@@ -3908,7 +4185,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 172
   },
   "81": {
     "id": 81,
@@ -3943,7 +4221,8 @@
       "Acier": 0.25,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 65
   },
   "82": {
     "id": 82,
@@ -3975,7 +4254,8 @@
       "Acier": 0.25,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 163
   },
   "83": {
     "id": 83,
@@ -4007,7 +4287,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 94
   },
   "84": {
     "id": 84,
@@ -4042,7 +4323,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 62
   },
   "85": {
     "id": 85,
@@ -4074,7 +4356,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 165
   },
   "86": {
     "id": 86,
@@ -4108,7 +4391,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 85
   },
   "87": {
     "id": 87,
@@ -4140,7 +4424,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 176
   },
   "88": {
     "id": 88,
@@ -4243,7 +4528,8 @@
         "niveau": 48,
         "attaque": "souvenir"
       }
-    ]
+    ],
+    "exp_base": 65
   },
   "89": {
     "id": 89,
@@ -4274,7 +4560,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 175
   },
   "90": {
     "id": 90,
@@ -4308,7 +4595,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 61
   },
   "91": {
     "id": 91,
@@ -4340,7 +4628,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 180
   },
   "92": {
     "id": 92,
@@ -4375,7 +4664,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 62
   },
   "93": {
     "id": 93,
@@ -4410,7 +4700,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 142
   },
   "94": {
     "id": 94,
@@ -4442,7 +4733,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 225
   },
   "95": {
     "id": 95,
@@ -4474,7 +4766,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 77
   },
   "96": {
     "id": 96,
@@ -4508,7 +4801,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 66
   },
   "97": {
     "id": 97,
@@ -4539,7 +4833,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 169
   },
   "98": {
     "id": 98,
@@ -4634,7 +4929,8 @@
         "niveau": 45,
         "attaque": "gigotage"
       }
-    ]
+    ],
+    "exp_base": 65
   },
   "99": {
     "id": 99,
@@ -4665,7 +4961,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 166
   },
   "100": {
     "id": 100,
@@ -4699,7 +4996,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 66
   },
   "101": {
     "id": 101,
@@ -4730,7 +5028,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 172
   },
   "102": {
     "id": 102,
@@ -4765,7 +5064,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 65
   },
   "103": {
     "id": 103,
@@ -4797,7 +5097,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 186
   },
   "104": {
     "id": 104,
@@ -4896,7 +5197,8 @@
         "niveau": 51,
         "attaque": "charge_os"
       }
-    ]
+    ],
+    "exp_base": 87
   },
   "105": {
     "id": 105,
@@ -5000,7 +5302,8 @@
         "niveau": 65,
         "attaque": "charge_os"
       }
-    ]
+    ],
+    "exp_base": 124
   },
   "106": {
     "id": 106,
@@ -5031,7 +5334,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 139
   },
   "107": {
     "id": 107,
@@ -5062,7 +5366,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 140
   },
   "108": {
     "id": 108,
@@ -5093,7 +5398,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 77
   },
   "109": {
     "id": 109,
@@ -5127,7 +5433,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 68
   },
   "110": {
     "id": 110,
@@ -5158,7 +5465,8 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 173
   },
   "111": {
     "id": 111,
@@ -5266,7 +5574,8 @@
         "niveau": 53,
         "attaque": "empal_korne"
       }
-    ]
+    ],
+    "exp_base": 69
   },
   "112": {
     "id": 112,
@@ -5379,7 +5688,8 @@
         "niveau": 55,
         "attaque": "megacorne"
       }
-    ]
+    ],
+    "exp_base": 170
   },
   "113": {
     "id": 113,
@@ -5410,7 +5720,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 395
   },
   "114": {
     "id": 114,
@@ -5514,7 +5825,8 @@
         "niveau": 50,
         "attaque": "megafouet"
       }
-    ]
+    ],
+    "exp_base": 166
   },
   "115": {
     "id": 115,
@@ -5545,7 +5857,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 172
   },
   "116": {
     "id": 116,
@@ -5628,7 +5941,8 @@
         "niveau": 52,
         "attaque": "hydrocanon"
       }
-    ]
+    ],
+    "exp_base": 59
   },
   "117": {
     "id": 117,
@@ -5708,7 +6022,8 @@
         "niveau": 52,
         "attaque": "danse_draco"
       }
-    ]
+    ],
+    "exp_base": 154
   },
   "118": {
     "id": 118,
@@ -5803,7 +6118,8 @@
         "niveau": 45,
         "attaque": "megacorne"
       }
-    ]
+    ],
+    "exp_base": 61
   },
   "119": {
     "id": 119,
@@ -5895,7 +6211,8 @@
         "niveau": 46,
         "attaque": "detrempage"
       }
-    ]
+    ],
+    "exp_base": 158
   },
   "120": {
     "id": 120,
@@ -6006,7 +6323,8 @@
         "niveau": 53,
         "attaque": "hydrocanon"
       }
-    ]
+    ],
+    "exp_base": 68
   },
   "121": {
     "id": 121,
@@ -6115,7 +6433,8 @@
         "niveau": 53,
         "attaque": "hydrocanon"
       }
-    ]
+    ],
+    "exp_base": 182
   },
   "122": {
     "id": 122,
@@ -6147,7 +6466,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 136
   },
   "123": {
     "id": 123,
@@ -6179,7 +6499,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 100
   },
   "124": {
     "id": 124,
@@ -6211,7 +6532,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 137
   },
   "125": {
     "id": 125,
@@ -6242,7 +6564,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 156
   },
   "126": {
     "id": 126,
@@ -6273,7 +6596,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 167
   },
   "127": {
     "id": 127,
@@ -6304,7 +6628,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 200
   },
   "128": {
     "id": 128,
@@ -6404,7 +6729,8 @@
         "niveau": 71,
         "attaque": "giga_impact"
       }
-    ]
+    ],
+    "exp_base": 211
   },
   "129": {
     "id": 129,
@@ -6438,7 +6764,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 20
   },
   "130": {
     "id": 130,
@@ -6470,7 +6797,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 189
   },
   "131": {
     "id": 131,
@@ -6502,7 +6830,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 219
   },
   "132": {
     "id": 132,
@@ -6533,7 +6862,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 101
   },
   "133": {
     "id": 133,
@@ -6577,7 +6907,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 65
   },
   "134": {
     "id": 134,
@@ -6608,7 +6939,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 196
   },
   "135": {
     "id": 135,
@@ -6639,7 +6971,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 184
   },
   "136": {
     "id": 136,
@@ -6670,7 +7003,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 184
   },
   "137": {
     "id": 137,
@@ -6701,7 +7035,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 130
   },
   "138": {
     "id": 138,
@@ -6736,7 +7071,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 99
   },
   "139": {
     "id": 139,
@@ -6768,7 +7104,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 199
   },
   "140": {
     "id": 140,
@@ -6803,7 +7140,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 99
   },
   "141": {
     "id": 141,
@@ -6835,7 +7173,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 201
   },
   "142": {
     "id": 142,
@@ -6867,7 +7206,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 202
   },
   "143": {
     "id": 143,
@@ -6898,7 +7238,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 189
   },
   "144": {
     "id": 144,
@@ -6930,7 +7271,8 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 261
   },
   "145": {
     "id": 145,
@@ -6962,7 +7304,8 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 261
   },
   "146": {
     "id": 146,
@@ -6994,7 +7337,8 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 261
   },
   "147": {
     "id": 147,
@@ -7085,7 +7429,8 @@
         "niveau": 61,
         "attaque": "ultralaser"
       }
-    ]
+    ],
+    "exp_base": 60
   },
   "148": {
     "id": 148,
@@ -7119,7 +7464,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 147
   },
   "149": {
     "id": 149,
@@ -7151,7 +7497,8 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 270
   },
   "150": {
     "id": 150,
@@ -7182,7 +7529,8 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 306
   },
   "151": {
     "id": 151,
@@ -7213,6 +7561,7 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [],
+    "exp_base": 270
   }
 }

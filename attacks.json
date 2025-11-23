@@ -319,7 +319,7 @@
     "de": "",
     "effet": ""
   },
-  "aria_de_l_cume": {
+  "aria_de_l_ecume": {
     "nom": "Aria de l'Écume",
     "attaque": "",
     "type": "Eau",
@@ -335,7 +335,7 @@
     "de": "-",
     "effet": "Augmente la défense du lanceur de 1"
   },
-  "aromath_rapie": {
+  "aromatherapie": {
     "nom": "Aromathérapie",
     "attaque": "",
     "type": "Plante",
@@ -473,11 +473,11 @@
   },
   "balayage": {
     "nom": "Balayage",
-    "attaque": "",
+    "attaque": "Contact",
     "type": "Combat",
-    "description": "",
-    "de": "",
-    "effet": ""
+    "description": "Un puissant coup de pied bas qui fauche l'ennemi. Il est plus efficace contre les ennemis lourds.",
+    "de": "-",
+    "effet": "Si la CON du lanceur est supérieure à celle de la cible 12 PV de dégâts sinon 6"
   },
   "balayette": {
     "nom": "Balayette",
@@ -585,11 +585,11 @@
   },
   "berceuse": {
     "nom": "Berceuse",
-    "attaque": "",
+    "attaque": "Magique",
     "type": "Normal",
-    "description": "",
-    "de": "",
-    "effet": ""
+    "description": "Une berceuse plonge l'ennemi dans un profond sommeil.",
+    "de": "-",
+    "effet": "Endort tous les adversaires pour 2 tours"
   },
   "big_splash": {
     "nom": "Big Splash",
@@ -689,11 +689,11 @@
   },
   "bouclier": {
     "nom": "Bouclier",
-    "attaque": "",
+    "attaque": "Magique",
     "type": "Psy",
-    "description": "",
-    "de": "",
-    "effet": ""
+    "description": "Le lanceur fait apparaitre devant lui un bouclier protecteur.",
+    "de": "-",
+    "effet": "Augmente la défense du lanceur de 2"
   },
   "bouclier_royal": {
     "nom": "Bouclier Royal",

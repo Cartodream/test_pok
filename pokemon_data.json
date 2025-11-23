@@ -35,27 +35,60 @@
     "capacites": [
       {
         "niveau": 1,
-        "nom": "Charge",
-        "type": "Normal",
-        "description": "Le lanceur charge l'ennemi toute force.",
-        "de": "1d6+2",
-        "effet": "Dégâts physiques"
+        "attaque": "charge"
       },
       {
         "niveau": 3,
-        "nom": "Rugissement",
-        "type": "Normal",
-        "description": "Rugit pour intimider l'ennemi et baisser son Attaque.",
-        "de": "-",
-        "effet": "Baisse l'Attaque de 1"
+        "attaque": "rugissement"
       },
       {
         "niveau": 7,
-        "nom": "Fouet Lianes",
-        "type": "Plante",
-        "description": "Fouette l'ennemi avec de fines lianes.",
-        "de": "1d8+1",
-        "effet": "Dégâts physiques"
+        "attaque": "fouet_lianes"
+      },
+    {
+        "niveau": 9,
+        "attaque": "vampigraine"
+      },
+      {
+        "niveau": 13,
+        "attaque": "poudre_toxik"
+      },
+    
+      {
+        "niveau": 13,
+        "attaque": "poudre_dodo"
+      },
+      {
+        "niveau": 15,
+        "attaque": "belier"
+      },
+    {
+        "niveau": 19,
+        "attaque": "tranch_herbe"
+      },
+      {
+        "niveau": 21,
+        "attaque": "doux_parfum"
+      },
+      {
+        "niveau": 25,
+        "attaque": "croissance"
+      },
+      {
+        "niveau": 27,
+        "attaque": "damocles"
+      },
+      {
+        "niveau": 31,
+        "attaque": "soucigraine"
+      },
+      {
+        "niveau": 33,
+        "attaque": "synthese"
+      },
+      {
+        "niveau": 37,
+        "attaque": "canon_graine"
       }
     ]
   },
@@ -92,7 +125,64 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 3,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 7,
+        "attaque": "fouet_lianes"
+      },
+      {
+        "niveau": 9,
+        "attaque": "vampigraine"
+      },
+      {
+        "niveau": 13,
+        "attaque": "poudre_toxik"
+      },
+      {
+        "niveau": 13,
+        "attaque": "poudre_dodo"
+      },
+      {
+        "niveau": 15,
+        "attaque": "belier"
+      },
+      {
+        "niveau": 20,
+        "attaque": "tranch_herbe"
+      },
+      {
+        "niveau": 23,
+        "attaque": "doux_parfum"
+      },
+      {
+        "niveau": 28,
+        "attaque": "croissance"
+      },
+      {
+        "niveau": 31,
+        "attaque": "damocles"
+      },
+      {
+        "niveau": 36,
+        "attaque": "soucigraine"
+      },
+      {
+        "niveau": 39,
+        "attaque": "synthese"
+      },
+      {
+        "niveau": 44,
+        "attaque": "lance_soleil"
+      }
+    ]
   },
   "3": {
     "id": 3,
@@ -124,7 +214,76 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 3,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 7,
+        "attaque": "fouet_lianes"
+      },
+      {
+        "niveau": 9,
+        "attaque": "vampigraine"
+      },
+      {
+        "niveau": 13,
+        "attaque": "poudre_toxik"
+      },
+      {
+        "niveau": 13,
+        "attaque": "poudre_dodo"
+      },
+      {
+        "niveau": 15,
+        "attaque": "belier"
+      },
+      {
+        "niveau": 20,
+        "attaque": "tranch_herbe"
+      },
+      {
+        "niveau": 23,
+        "attaque": "doux_parfum"
+      },
+      {
+        "niveau": 28,
+        "attaque": "croissance"
+      },
+      {
+        "niveau": 31,
+        "attaque": "damocles"
+      },
+      {
+        "niveau": 33,
+        "attaque": "danse_fleurs"
+      },
+      {
+        "niveau": 34,
+        "attaque": "megafouet"
+      },
+      {
+        "niveau": 39,
+        "attaque": "soucigraine"
+      },
+      {
+        "niveau": 45,
+        "attaque": "synthese"
+      },
+      {
+        "niveau": 50,
+        "attaque": "tempete_florale"
+      },
+      {
+        "niveau": 53,
+        "attaque": "lance_soleil"
+      }
+    ]
   },
   "4": {
     "id": 4,
@@ -158,7 +317,60 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 4,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 7,
+        "attaque": "flammeche"
+      },
+      {
+        "niveau": 10,
+        "attaque": "brouillard"
+      },
+      {
+        "niveau": 16,
+        "attaque": "draco_charge"
+      },
+      {
+        "niveau": 18,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 19,
+        "attaque": "grimace"
+      },
+      {
+        "niveau": 25,
+        "attaque": "crocs_feu"
+      },
+      {
+        "niveau": 28,
+        "attaque": "rebondifeu"
+      },
+      {
+        "niveau": 34,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 37,
+        "attaque": "lance_flammes"
+      },
+      {
+        "niveau": 43,
+        "attaque": "danse_flammes"
+      },
+      {
+        "niveau": 46,
+        "attaque": "feu_d_enfer"
+      }
+    ]
   },
   "5": {
     "id": 5,
@@ -192,7 +404,56 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 1,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 7,
+        "attaque": "flammeche"
+      },
+      {
+        "niveau": 10,
+        "attaque": "brouillard"
+      },
+      {
+        "niveau": 17,
+        "attaque": "draco_rage"
+      },
+      {
+        "niveau": 20,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 21,
+        "attaque": "grimace"
+      },
+      {
+        "niveau": 28,
+        "attaque": "crocs_feu"
+      },
+      {
+        "niveau": 39,
+        "attaque": "rebondifeu"
+      },
+      {
+        "niveau": 43,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 50,
+        "attaque": "lance_flammes"
+      },
+      {
+        "niveau": 54,
+        "attaque": "feu_d_enfer"
+      }
+    ]
   },
   "6": {
     "id": 6,
@@ -224,7 +485,92 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 4,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 7,
+        "attaque": "flammeche"
+      },
+      {
+        "niveau": 10,
+        "attaque": "brouillard"
+      },
+      {
+        "niveau": 17,
+        "attaque": "draco_rage"
+      },
+      {
+        "niveau": 20,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 21,
+        "attaque": "grimace"
+      },
+      {
+        "niveau": 28,
+        "attaque": "crocs_feu"
+      },
+      {
+        "niveau": 37,
+        "attaque": "rebondifeu"
+      },
+      {
+        "niveau": 37,
+        "attaque": "cru_ailes"
+      },
+      {
+        "niveau": 37,
+        "attaque": "riposte"
+      },
+      {
+        "niveau": 37,
+        "attaque": "draco_griffe"
+      },
+      {
+        "niveau": 37,
+        "attaque": "griffe_ombre"
+      },
+      {
+        "niveau": 37,
+        "attaque": "machouille"
+      },
+      {
+        "niveau": 41,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 47,
+        "attaque": "lance_flammes"
+      },
+      {
+        "niveau": 56,
+        "attaque": "danse_flammes"
+      },
+      {
+        "niveau": 62,
+        "attaque": "feu_d_enfer"
+      },
+      {
+        "niveau": 62,
+        "attaque": "lame_d_air"
+      },
+      {
+        "niveau": 71,
+        "attaque": "canicule"
+      },
+      {
+        "niveau": 77,
+        "attaque": "boutefeu"
+      }
+    ]
   },
   "7": {
     "id": 7,
@@ -258,7 +604,72 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 5,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 10,
+        "attaque": "repli"
+      },
+      {
+        "niveau": 13,
+        "attaque": "ecume"
+      },
+      {
+        "niveau": 16,
+        "attaque": "morsure"
+      },
+      {
+        "niveau": 19,
+        "attaque": "tour_rapide"
+      },
+      {
+        "niveau": 22,
+        "attaque": "abri"
+      },
+      {
+        "niveau": 25,
+        "attaque": "vibraqua"
+      },
+      {
+        "niveau": 27,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 28,
+        "attaque": "hydro_queue"
+      },
+      {
+        "niveau": 31,
+        "attaque": "coud_krane"
+      },
+      {
+        "niveau": 34,
+        "attaque": "mur_de_fer"
+      },
+      {
+        "niveau": 36,
+        "attaque": "coup_d_boule"
+      },
+      {
+        "niveau": 37,
+        "attaque": "danse_pluie"
+      },
+      {
+        "niveau": 40,
+        "attaque": "hydrocanon"
+      }
+    ]
   },
   "8": {
     "id": 8,
@@ -292,7 +703,72 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 5,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 10,
+        "attaque": "repli"
+      },
+      {
+        "niveau": 13,
+        "attaque": "ecume"
+      },
+      {
+        "niveau": 17,
+        "attaque": "morsure"
+      },
+      {
+        "niveau": 21,
+        "attaque": "tour_rapide"
+      },
+      {
+        "niveau": 25,
+        "attaque": "abri"
+      },
+      {
+        "niveau": 29,
+        "attaque": "vibraqua"
+      },
+      {
+        "niveau": 33,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 33,
+        "attaque": "hydro_queue"
+      },
+      {
+        "niveau": 37,
+        "attaque": "coud_krane"
+      },
+      {
+        "niveau": 41,
+        "attaque": "mur_de_fer"
+      },
+      {
+        "niveau": 45,
+        "attaque": "danse_pluie"
+      },
+      {
+        "niveau": 46,
+        "attaque": "coup_d_boule"
+      },
+      {
+        "niveau": 49,
+        "attaque": "hydrocanon"
+      }
+    ]
   },
   "9": {
     "id": 9,
@@ -323,7 +799,80 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 5,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 10,
+        "attaque": "repli"
+      },
+      {
+        "niveau": 13,
+        "attaque": "ecume"
+      },
+      {
+        "niveau": 17,
+        "attaque": "morsure"
+      },
+      {
+        "niveau": 21,
+        "attaque": "tour_rapide"
+      },
+      {
+        "niveau": 25,
+        "attaque": "abri"
+      },
+      {
+        "niveau": 29,
+        "attaque": "vibraqua"
+      },
+      {
+        "niveau": 33,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 33,
+        "attaque": "hydro_queue"
+      },
+      {
+        "niveau": 37,
+        "attaque": "bluff"
+      },
+      {
+        "niveau": 37,
+        "attaque": "luminocanon"
+      },
+      {
+        "niveau": 40,
+        "attaque": "coud_krane"
+      },
+      {
+        "niveau": 47,
+        "attaque": "mur_de_fer"
+      },
+      {
+        "niveau": 54,
+        "attaque": "coup_d_boule"
+      },
+      {
+        "niveau": 54,
+        "attaque": "danse_pluie"
+      },
+      {
+        "niveau": 60,
+        "attaque": "hydrocanon"
+      }
+    ]
   },
   "10": {
     "id": 10,
@@ -357,7 +906,20 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 1,
+        "attaque": "secretion"
+      },
+      {
+        "niveau": 9,
+        "attaque": "piqure"
+      }
+    ]
   },
   "11": {
     "id": 11,
@@ -391,7 +953,20 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 1,
+        "attaque": "secretion"
+      },
+      {
+        "niveau": 8,
+        "attaque": "armure"
+      }
+    ]
   },
   "12": {
     "id": 12,
@@ -858,7 +1433,84 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "eclair"
+      },
+      {
+        "niveau": 1,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 5,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 7,
+        "attaque": "camaraderie"
+      },
+      {
+        "niveau": 9,
+        "attaque": "double_pied"
+      },
+      {
+        "niveau": 10,
+        "attaque": "vive_attaque"
+      },
+      {
+        "niveau": 13,
+        "attaque": "boule_elek"
+      },
+      {
+        "niveau": 18,
+        "attaque": "cage_eclair"
+      },
+      {
+        "niveau": 21,
+        "attaque": "ruse"
+      },
+      {
+        "niveau": 23,
+        "attaque": "reflet"
+      },
+      {
+        "niveau": 26,
+        "attaque": "etincelle"
+      },
+      {
+        "niveau": 29,
+        "attaque": "frotte_frimousse"
+      },
+      {
+        "niveau": 34,
+        "attaque": "coup_d_jus"
+      },
+      {
+        "niveau": 37,
+        "attaque": "souplesse"
+      },
+      {
+        "niveau": 42,
+        "attaque": "tonnerre"
+      },
+      {
+        "niveau": 45,
+        "attaque": "hate"
+      },
+      {
+        "niveau": 50,
+        "attaque": "eclair_fou"
+      },
+      {
+        "niveau": 53,
+        "attaque": "mur_lumiere"
+      },
+      {
+        "niveau": 58,
+        "attaque": "fatal_foudre"
+      }
+    ]
   },
   "26": {
     "id": 26,
@@ -923,7 +1575,80 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "boul_armure"
+      },
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 3,
+        "attaque": "jet_de_sable"
+      },
+      {
+        "niveau": 5,
+        "attaque": "dard_venin"
+      },
+      {
+        "niveau": 7,
+        "attaque": "roulade"
+      },
+      {
+        "niveau": 9,
+        "attaque": "tour_rapide"
+      },
+      {
+        "niveau": 11,
+        "attaque": "taillade"
+      },
+      {
+        "niveau": 14,
+        "attaque": "ampleur"
+      },
+      {
+        "niveau": 17,
+        "attaque": "meteores"
+      },
+      {
+        "niveau": 20,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 23,
+        "attaque": "tourbi_sable"
+      },
+      {
+        "niveau": 24,
+        "attaque": "abri"
+      },
+      {
+        "niveau": 26,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 30,
+        "attaque": "tunnel"
+      },
+      {
+        "niveau": 34,
+        "attaque": "gyroballe"
+      },
+      {
+        "niveau": 38,
+        "attaque": "danse_lames"
+      },
+      {
+        "niveau": 42,
+        "attaque": "tempete_de_sable"
+      },
+      {
+        "niveau": 46,
+        "attaque": "seisme"
+      }
+    ]
   },
   "28": {
     "id": 28,
@@ -1253,7 +1978,92 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 1,
+        "attaque": "flammeche"
+      },
+      {
+        "niveau": 4,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "hurlement"
+      },
+      {
+        "niveau": 9,
+        "attaque": "regard_touchant"
+      },
+      {
+        "niveau": 10,
+        "attaque": "vive_attaque"
+      },
+      {
+        "niveau": 12,
+        "attaque": "onde_folie"
+      },
+      {
+        "niveau": 15,
+        "attaque": "danse_flammes"
+      },
+      {
+        "niveau": 18,
+        "attaque": "represailles"
+      },
+      {
+        "niveau": 20,
+        "attaque": "feu_follet"
+      },
+      {
+        "niveau": 23,
+        "attaque": "feinte"
+      },
+      {
+        "niveau": 26,
+        "attaque": "chatiment"
+      },
+      {
+        "niveau": 28,
+        "attaque": "rebondifeu"
+      },
+      {
+        "niveau": 31,
+        "attaque": "extrasenseur"
+      },
+      {
+        "niveau": 34,
+        "attaque": "rune_protect"
+      },
+      {
+        "niveau": 36,
+        "attaque": "lance_flammes"
+      },
+      {
+        "niveau": 39,
+        "attaque": "possessif"
+      },
+      {
+        "niveau": 42,
+        "attaque": "deflagration"
+      },
+      {
+        "niveau": 44,
+        "attaque": "rancune"
+      },
+      {
+        "niveau": 47,
+        "attaque": "seduction"
+      },
+      {
+        "niveau": 50,
+        "attaque": "feu_d_enfer"
+      }
+    ]
   },
   "38": {
     "id": 38,
@@ -1622,7 +2432,60 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 1,
+        "attaque": "clairvoyance"
+      },
+      {
+        "niveau": 1,
+        "attaque": "entrave"
+      },
+      {
+        "niveau": 5,
+        "attaque": "ultrason"
+      },
+      {
+        "niveau": 11,
+        "attaque": "choc_mental"
+      },
+      {
+        "niveau": 13,
+        "attaque": "poudre_toxik"
+      },
+      {
+        "niveau": 17,
+        "attaque": "rafale_psy"
+      },
+      {
+        "niveau": 23,
+        "attaque": "para_spore"
+      },
+      {
+        "niveau": 25,
+        "attaque": "rayon_signal"
+      },
+      {
+        "niveau": 29,
+        "attaque": "poudre_dodo"
+      },
+      {
+        "niveau": 37,
+        "attaque": "psykoud_boul"
+      },
+      {
+        "niveau": 41,
+        "attaque": "crochet_venin"
+      },
+      {
+        "niveau": 47,
+        "attaque": "psyko"
+      }
+    ]
   },
   "49": {
     "id": 49,
@@ -1753,7 +2616,72 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 1,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 6,
+        "attaque": "morsure"
+      },
+      {
+        "niveau": 9,
+        "attaque": "bluff"
+      },
+      {
+        "niveau": 14,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 17,
+        "attaque": "grincement"
+      },
+      {
+        "niveau": 22,
+        "attaque": "feinte"
+      },
+      {
+        "niveau": 25,
+        "attaque": "provoc"
+      },
+      {
+        "niveau": 30,
+        "attaque": "jackpot"
+      },
+      {
+        "niveau": 33,
+        "attaque": "tranche"
+      },
+      {
+        "niveau": 35,
+        "attaque": "calinerie"
+      },
+      {
+        "niveau": 38,
+        "attaque": "machination"
+      },
+      {
+        "niveau": 41,
+        "attaque": "assurance"
+      },
+      {
+        "niveau": 46,
+        "attaque": "seduction"
+      },
+      {
+        "niveau": 49,
+        "attaque": "tranche_nuit"
+      },
+      {
+        "niveau": 50,
+        "attaque": "ruse"
+      }
+    ]
   },
   "53": {
     "id": 53,
@@ -1818,7 +2746,80 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 1,
+        "attaque": "tourniquet"
+      },
+      {
+        "niveau": 4,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 10,
+        "attaque": "choc_mental"
+      },
+      {
+        "niveau": 13,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 16,
+        "attaque": "vibraqua"
+      },
+      {
+        "niveau": 19,
+        "attaque": "entrave"
+      },
+      {
+        "niveau": 22,
+        "attaque": "grincement"
+      },
+      {
+        "niveau": 25,
+        "attaque": "psykoud_boul"
+      },
+      {
+        "niveau": 27,
+        "attaque": "rafale_psy"
+      },
+      {
+        "niveau": 28,
+        "attaque": "hydro_queue"
+      },
+      {
+        "niveau": 31,
+        "attaque": "detrempage"
+      },
+      {
+        "niveau": 34,
+        "attaque": "boost"
+      },
+      {
+        "niveau": 36,
+        "attaque": "surf"
+      },
+      {
+        "niveau": 37,
+        "attaque": "amnesie"
+      },
+      {
+        "niveau": 40,
+        "attaque": "hydrocanon"
+      },
+      {
+        "niveau": 43,
+        "attaque": "zone_etrange"
+      }
+    ]
   },
   "55": {
     "id": 55,
@@ -1849,7 +2850,96 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "griffe"
+      },
+      {
+        "niveau": 1,
+        "attaque": "tourniquet"
+      },
+      {
+        "niveau": 4,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 10,
+        "attaque": "choc_mental"
+      },
+      {
+        "niveau": 13,
+        "attaque": "combo_griffe"
+      },
+      {
+        "niveau": 16,
+        "attaque": "vibraqua"
+      },
+      {
+        "niveau": 19,
+        "attaque": "entrave"
+      },
+      {
+        "niveau": 22,
+        "attaque": "grincement"
+      },
+      {
+        "niveau": 25,
+        "attaque": "psykoud_boul"
+      },
+      {
+        "niveau": 27,
+        "attaque": "rafale_psy"
+      },
+      {
+        "niveau": 28,
+        "attaque": "hydro_queue"
+      },
+      {
+        "niveau": 31,
+        "attaque": "detrempage"
+      },
+      {
+        "niveau": 34,
+        "attaque": "aqua_jet"
+      },
+      {
+        "niveau": 34,
+        "attaque": "baillement"
+      },
+      {
+        "niveau": 34,
+        "attaque": "encore"
+      },
+      {
+        "niveau": 34,
+        "attaque": "moi_d_abord"
+      },
+      {
+        "niveau": 36,
+        "attaque": "boost"
+      },
+      {
+        "niveau": 41,
+        "attaque": "amnesie"
+      },
+      {
+        "niveau": 42,
+        "attaque": "surf"
+      },
+      {
+        "niveau": 46,
+        "attaque": "hydrocanon"
+      },
+      {
+        "niveau": 51,
+        "attaque": "zone_etrange"
+      }
+    ]
   },
   "56": {
     "id": 56,
@@ -1948,7 +3038,84 @@
       "Acier": 0.5,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "hurlement"
+      },
+      {
+        "niveau": 1,
+        "attaque": "morsure"
+      },
+      {
+        "niveau": 6,
+        "attaque": "flammeche"
+      },
+      {
+        "niveau": 8,
+        "attaque": "groz_yeux"
+      },
+      {
+        "niveau": 10,
+        "attaque": "flair"
+      },
+      {
+        "niveau": 12,
+        "attaque": "coup_d_main"
+      },
+      {
+        "niveau": 17,
+        "attaque": "roue_de_feu"
+      },
+      {
+        "niveau": 19,
+        "attaque": "contre"
+      },
+      {
+        "niveau": 21,
+        "attaque": "crocs_feu"
+      },
+      {
+        "niveau": 23,
+        "attaque": "belier"
+      },
+      {
+        "niveau": 28,
+        "attaque": "rebondifeu"
+      },
+      {
+        "niveau": 30,
+        "attaque": "hate"
+      },
+      {
+        "niveau": 32,
+        "attaque": "vengeance"
+      },
+      {
+        "niveau": 34,
+        "attaque": "lance_flammes"
+      },
+      {
+        "niveau": 35,
+        "attaque": "calinerie"
+      },
+      {
+        "niveau": 39,
+        "attaque": "machouille"
+      },
+      {
+        "niveau": 41,
+        "attaque": "canicule"
+      },
+      {
+        "niveau": 43,
+        "attaque": "colere"
+      },
+      {
+        "niveau": 45,
+        "attaque": "boutefeu"
+      }
+    ]
   },
   "59": {
     "id": 59,
@@ -2013,7 +3180,68 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "tourniquet"
+      },
+      {
+        "niveau": 4,
+        "attaque": "ecras_face"
+      },
+      {
+        "niveau": 5,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 8,
+        "attaque": "hypnose"
+      },
+      {
+        "niveau": 11,
+        "attaque": "ecume"
+      },
+      {
+        "niveau": 15,
+        "attaque": "torgnoles"
+      },
+      {
+        "niveau": 18,
+        "attaque": "danse_pluie"
+      },
+      {
+        "niveau": 21,
+        "attaque": "plaquage"
+      },
+      {
+        "niveau": 25,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 26,
+        "attaque": "balayage"
+      },
+      {
+        "niveau": 28,
+        "attaque": "tir_de_boue"
+      },
+      {
+        "niveau": 31,
+        "attaque": "cognobidon"
+      },
+      {
+        "niveau": 35,
+        "attaque": "reveil_force"
+      },
+      {
+        "niveau": 38,
+        "attaque": "hydrocanon"
+      },
+      {
+        "niveau": 41,
+        "attaque": "boue_bombe"
+      }
+    ]
   },
   "61": {
     "id": 61,
@@ -2946,7 +4174,76 @@
       "Acier": 1.0,
       "Fée": 0.5
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "ecras_face"
+      },
+      {
+        "niveau": 1,
+        "attaque": "gaz_toxik"
+      },
+      {
+        "niveau": 4,
+        "attaque": "armure"
+      },
+      {
+        "niveau": 7,
+        "attaque": "coud_boue"
+      },
+      {
+        "niveau": 12,
+        "attaque": "entrave"
+      },
+      {
+        "niveau": 15,
+        "attaque": "detritus"
+      },
+      {
+        "niveau": 18,
+        "attaque": "boue_bombe"
+      },
+      {
+        "niveau": 21,
+        "attaque": "lilliput"
+      },
+      {
+        "niveau": 26,
+        "attaque": "degommage"
+      },
+      {
+        "niveau": 29,
+        "attaque": "bombe_beurk"
+      },
+      {
+        "niveau": 32,
+        "attaque": "cradovague"
+      },
+      {
+        "niveau": 36,
+        "attaque": "toxik"
+      },
+      {
+        "niveau": 37,
+        "attaque": "grincement"
+      },
+      {
+        "niveau": 40,
+        "attaque": "detricanon"
+      },
+      {
+        "niveau": 43,
+        "attaque": "acidarmure"
+      },
+      {
+        "niveau": 46,
+        "attaque": "eructation"
+      },
+      {
+        "niveau": 48,
+        "attaque": "souvenir"
+      }
+    ]
   },
   "89": {
     "id": 89,
@@ -3276,7 +4573,68 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "ecume"
+      },
+      {
+        "niveau": 1,
+        "attaque": "lance_boue"
+      },
+      {
+        "niveau": 5,
+        "attaque": "force_poigne"
+      },
+      {
+        "niveau": 9,
+        "attaque": "groz_yeux"
+      },
+      {
+        "niveau": 11,
+        "attaque": "armure"
+      },
+      {
+        "niveau": 15,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 19,
+        "attaque": "tir_de_boue"
+      },
+      {
+        "niveau": 21,
+        "attaque": "griffe_acier"
+      },
+      {
+        "niveau": 25,
+        "attaque": "ecrasement"
+      },
+      {
+        "niveau": 29,
+        "attaque": "abri"
+      },
+      {
+        "niveau": 31,
+        "attaque": "guillotine"
+      },
+      {
+        "niveau": 35,
+        "attaque": "souplesse"
+      },
+      {
+        "niveau": 39,
+        "attaque": "saumure"
+      },
+      {
+        "niveau": 41,
+        "attaque": "pince_masse"
+      },
+      {
+        "niveau": 45,
+        "attaque": "gigotage"
+      }
+    ]
   },
   "99": {
     "id": 99,
@@ -3473,7 +4831,72 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 3,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "massd_os"
+      },
+      {
+        "niveau": 11,
+        "attaque": "coup_d_boule"
+      },
+      {
+        "niveau": 13,
+        "attaque": "groz_yeux"
+      },
+      {
+        "niveau": 17,
+        "attaque": "puissance"
+      },
+      {
+        "niveau": 21,
+        "attaque": "osmerang"
+      },
+      {
+        "niveau": 23,
+        "attaque": "frenesie"
+      },
+      {
+        "niveau": 27,
+        "attaque": "faux_chage"
+      },
+      {
+        "niveau": 31,
+        "attaque": "mania"
+      },
+      {
+        "niveau": 33,
+        "attaque": "degommage"
+      },
+      {
+        "niveau": 37,
+        "attaque": "trepignement"
+      },
+      {
+        "niveau": 41,
+        "attaque": "effort"
+      },
+      {
+        "niveau": 43,
+        "attaque": "damocles"
+      },
+      {
+        "niveau": 47,
+        "attaque": "vengeance"
+      },
+      {
+        "niveau": 51,
+        "attaque": "charge_os"
+      }
+    ]
   },
   "105": {
     "id": 105,
@@ -3504,7 +4927,80 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "rugissement"
+      },
+      {
+        "niveau": 3,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 7,
+        "attaque": "massd_os"
+      },
+      {
+        "niveau": 11,
+        "attaque": "coup_d_boule"
+      },
+      {
+        "niveau": 13,
+        "attaque": "groz_yeux"
+      },
+      {
+        "niveau": 17,
+        "attaque": "puissance"
+      },
+      {
+        "niveau": 21,
+        "attaque": "osmerang"
+      },
+      {
+        "niveau": 23,
+        "attaque": "frenesie"
+      },
+      {
+        "niveau": 27,
+        "attaque": "faux_chage"
+      },
+      {
+        "niveau": 29,
+        "attaque": "danse_lames"
+      },
+      {
+        "niveau": 29,
+        "attaque": "grincement"
+      },
+      {
+        "niveau": 33,
+        "attaque": "mania"
+      },
+      {
+        "niveau": 37,
+        "attaque": "degommage"
+      },
+      {
+        "niveau": 43,
+        "attaque": "trepignement"
+      },
+      {
+        "niveau": 49,
+        "attaque": "effort"
+      },
+      {
+        "niveau": 53,
+        "attaque": "damocles"
+      },
+      {
+        "niveau": 59,
+        "attaque": "vengeance"
+      },
+      {
+        "niveau": 65,
+        "attaque": "charge_os"
+      }
+    ]
   },
   "106": {
     "id": 106,
@@ -3697,7 +5193,80 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "jet_de_sable"
+      },
+      {
+        "niveau": 1,
+        "attaque": "koud_korne"
+      },
+      {
+        "niveau": 1,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 5,
+        "attaque": "furie"
+      },
+      {
+        "niveau": 9,
+        "attaque": "grimace"
+      },
+      {
+        "niveau": 13,
+        "attaque": "anti_air"
+      },
+      {
+        "niveau": 17,
+        "attaque": "ecrasement"
+      },
+      {
+        "niveau": 19,
+        "attaque": "jet_pierres"
+      },
+      {
+        "niveau": 21,
+        "attaque": "pietisol"
+      },
+      {
+        "niveau": 25,
+        "attaque": "attrition"
+      },
+      {
+        "niveau": 29,
+        "attaque": "boule_roc"
+      },
+      {
+        "niveau": 33,
+        "attaque": "tunnelier"
+      },
+      {
+        "niveau": 37,
+        "attaque": "belier"
+      },
+      {
+        "niveau": 41,
+        "attaque": "lame_de_roc"
+      },
+      {
+        "niveau": 43,
+        "attaque": "eboulement"
+      },
+      {
+        "niveau": 45,
+        "attaque": "seisme"
+      },
+      {
+        "niveau": 49,
+        "attaque": "megacorne"
+      },
+      {
+        "niveau": 53,
+        "attaque": "empal_korne"
+      }
+    ]
   },
   "112": {
     "id": 112,
@@ -3729,7 +5298,88 @@
       "Acier": 2.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "jet_de_sable"
+      },
+      {
+        "niveau": 1,
+        "attaque": "koud_korne"
+      },
+      {
+        "niveau": 1,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 5,
+        "attaque": "furie"
+      },
+      {
+        "niveau": 9,
+        "attaque": "grimace"
+      },
+      {
+        "niveau": 13,
+        "attaque": "anti_air"
+      },
+      {
+        "niveau": 17,
+        "attaque": "ecrasement"
+      },
+      {
+        "niveau": 19,
+        "attaque": "jet_pierres"
+      },
+      {
+        "niveau": 21,
+        "attaque": "pietisol"
+      },
+      {
+        "niveau": 25,
+        "attaque": "attrition"
+      },
+      {
+        "niveau": 29,
+        "attaque": "boule_roc"
+      },
+      {
+        "niveau": 33,
+        "attaque": "tunnelier"
+      },
+      {
+        "niveau": 37,
+        "attaque": "belier"
+      },
+      {
+        "niveau": 41,
+        "attaque": "lame_de_roc"
+      },
+      {
+        "niveau": 43,
+        "attaque": "machouille"
+      },
+      {
+        "niveau": 43,
+        "attaque": "marto_poing"
+      },
+      {
+        "niveau": 43,
+        "attaque": "riposte"
+      },
+      {
+        "niveau": 48,
+        "attaque": "eboulement"
+      },
+      {
+        "niveau": 48,
+        "attaque": "seisme"
+      },
+      {
+        "niveau": 55,
+        "attaque": "megacorne"
+      }
+    ]
   },
   "113": {
     "id": 113,
@@ -3791,7 +5441,80 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "constriction"
+      },
+      {
+        "niveau": 4,
+        "attaque": "poudre_dodo"
+      },
+      {
+        "niveau": 7,
+        "attaque": "fouet_lianes"
+      },
+      {
+        "niveau": 10,
+        "attaque": "vole_vie"
+      },
+      {
+        "niveau": 14,
+        "attaque": "poudre_toxik"
+      },
+      {
+        "niveau": 17,
+        "attaque": "etreinte"
+      },
+      {
+        "niveau": 22,
+        "attaque": "croissance"
+      },
+      {
+        "niveau": 23,
+        "attaque": "mega_sangsue"
+      },
+      {
+        "niveau": 27,
+        "attaque": "sabotage"
+      },
+      {
+        "niveau": 30,
+        "attaque": "para_spore"
+      },
+      {
+        "niveau": 33,
+        "attaque": "don_naturel"
+      },
+      {
+        "niveau": 36,
+        "attaque": "giga_sangsue"
+      },
+      {
+        "niveau": 38,
+        "attaque": "pouvoir_antique"
+      },
+      {
+        "niveau": 41,
+        "attaque": "souplesse"
+      },
+      {
+        "niveau": 44,
+        "attaque": "chatouille"
+      },
+      {
+        "niveau": 46,
+        "attaque": "essorage"
+      },
+      {
+        "niveau": 48,
+        "attaque": "champ_herbu"
+      },
+      {
+        "niveau": 50,
+        "attaque": "megafouet"
+      }
+    ]
   },
   "115": {
     "id": 115,
@@ -3856,7 +5579,56 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "ecume"
+      },
+      {
+        "niveau": 5,
+        "attaque": "brouillard"
+      },
+      {
+        "niveau": 9,
+        "attaque": "groz_yeux"
+      },
+      {
+        "niveau": 13,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 17,
+        "attaque": "ouragan"
+      },
+      {
+        "niveau": 21,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 26,
+        "attaque": "puissance"
+      },
+      {
+        "niveau": 31,
+        "attaque": "saumure"
+      },
+      {
+        "niveau": 36,
+        "attaque": "hate"
+      },
+      {
+        "niveau": 41,
+        "attaque": "draco_choc"
+      },
+      {
+        "niveau": 46,
+        "attaque": "danse_draco"
+      },
+      {
+        "niveau": 52,
+        "attaque": "hydrocanon"
+      }
+    ]
   },
   "117": {
     "id": 117,
@@ -3887,7 +5659,56 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "ecume"
+      },
+      {
+        "niveau": 5,
+        "attaque": "brouillard"
+      },
+      {
+        "niveau": 9,
+        "attaque": "groz_yeux"
+      },
+      {
+        "niveau": 17,
+        "attaque": "ouragan"
+      },
+      {
+        "niveau": 21,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 26,
+        "attaque": "puissance"
+      },
+      {
+        "niveau": 31,
+        "attaque": "saumure"
+      },
+      {
+        "niveau": 33,
+        "attaque": "bain_de_smog"
+      },
+      {
+        "niveau": 33,
+        "attaque": "entrave"
+      },
+      {
+        "niveau": 38,
+        "attaque": "hate"
+      },
+      {
+        "niveau": 45,
+        "attaque": "draco_choc"
+      },
+      {
+        "niveau": 52,
+        "attaque": "danse_draco"
+      }
+    ]
   },
   "118": {
     "id": 118,
@@ -3921,7 +5742,68 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 1,
+        "attaque": "picpic"
+      },
+      {
+        "niveau": 1,
+        "attaque": "tourniquet"
+      },
+      {
+        "niveau": 5,
+        "attaque": "ultrason"
+      },
+      {
+        "niveau": 8,
+        "attaque": "koud_korne"
+      },
+      {
+        "niveau": 10,
+        "attaque": "vive_attaque"
+      },
+      {
+        "niveau": 13,
+        "attaque": "gigotage"
+      },
+      {
+        "niveau": 16,
+        "attaque": "vibraqua"
+      },
+      {
+        "niveau": 21,
+        "attaque": "anneau_hydro"
+      },
+      {
+        "niveau": 24,
+        "attaque": "furie"
+      },
+      {
+        "niveau": 29,
+        "attaque": "hate"
+      },
+      {
+        "niveau": 32,
+        "attaque": "cascade"
+      },
+      {
+        "niveau": 37,
+        "attaque": "empal_korne"
+      },
+      {
+        "niveau": 40,
+        "attaque": "detrempage"
+      },
+      {
+        "niveau": 45,
+        "attaque": "megacorne"
+      }
+    ]
   },
   "119": {
     "id": 119,
@@ -3952,7 +5834,68 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 1,
+        "attaque": "picpic"
+      },
+      {
+        "niveau": 1,
+        "attaque": "tourniquet"
+      },
+      {
+        "niveau": 5,
+        "attaque": "ultrason"
+      },
+      {
+        "niveau": 8,
+        "attaque": "koud_korne"
+      },
+      {
+        "niveau": 10,
+        "attaque": "vive_attaque"
+      },
+      {
+        "niveau": 13,
+        "attaque": "gigotage"
+      },
+      {
+        "niveau": 16,
+        "attaque": "vibraqua"
+      },
+      {
+        "niveau": 21,
+        "attaque": "anneau_hydro"
+      },
+      {
+        "niveau": 24,
+        "attaque": "furie"
+      },
+      {
+        "niveau": 29,
+        "attaque": "hate"
+      },
+      {
+        "niveau": 32,
+        "attaque": "cascade"
+      },
+      {
+        "niveau": 34,
+        "attaque": "direct_toxik"
+      },
+      {
+        "niveau": 40,
+        "attaque": "empal_korne"
+      },
+      {
+        "niveau": 46,
+        "attaque": "detrempage"
+      }
+    ]
   },
   "120": {
     "id": 120,
@@ -3986,7 +5929,84 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "armure"
+      },
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 4,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 7,
+        "attaque": "tour_rapide"
+      },
+      {
+        "niveau": 10,
+        "attaque": "soin"
+      },
+      {
+        "niveau": 13,
+        "attaque": "vague_psy"
+      },
+      {
+        "niveau": 16,
+        "attaque": "meteores"
+      },
+      {
+        "niveau": 18,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 22,
+        "attaque": "camouflage"
+      },
+      {
+        "niveau": 24,
+        "attaque": "gyroballe"
+      },
+      {
+        "niveau": 28,
+        "attaque": "saumure"
+      },
+      {
+        "niveau": 31,
+        "attaque": "lilliput"
+      },
+      {
+        "niveau": 35,
+        "attaque": "copie_type"
+      },
+      {
+        "niveau": 37,
+        "attaque": "rayon_gemme"
+      },
+      {
+        "niveau": 40,
+        "attaque": "onde_folie"
+      },
+      {
+        "niveau": 42,
+        "attaque": "psyko"
+      },
+      {
+        "niveau": 46,
+        "attaque": "mur_lumiere"
+      },
+      {
+        "niveau": 49,
+        "attaque": "force_cosmique"
+      },
+      {
+        "niveau": 53,
+        "attaque": "hydrocanon"
+      }
+    ]
   },
   "121": {
     "id": 121,
@@ -4018,7 +6038,84 @@
       "Acier": 0.5,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "armure"
+      },
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 4,
+        "attaque": "pistolet_o"
+      },
+      {
+        "niveau": 7,
+        "attaque": "tour_rapide"
+      },
+      {
+        "niveau": 10,
+        "attaque": "soin"
+      },
+      {
+        "niveau": 13,
+        "attaque": "vague_psy"
+      },
+      {
+        "niveau": 16,
+        "attaque": "meteores"
+      },
+      {
+        "niveau": 18,
+        "attaque": "bulles_d_o"
+      },
+      {
+        "niveau": 22,
+        "attaque": "camouflage"
+      },
+      {
+        "niveau": 24,
+        "attaque": "gyroballe"
+      },
+      {
+        "niveau": 28,
+        "attaque": "saumure"
+      },
+      {
+        "niveau": 31,
+        "attaque": "lilliput"
+      },
+      {
+        "niveau": 35,
+        "attaque": "copie_type"
+      },
+      {
+        "niveau": 37,
+        "attaque": "rayon_gemme"
+      },
+      {
+        "niveau": 40,
+        "attaque": "onde_folie"
+      },
+      {
+        "niveau": 42,
+        "attaque": "psyko"
+      },
+      {
+        "niveau": 46,
+        "attaque": "mur_lumiere"
+      },
+      {
+        "niveau": 49,
+        "attaque": "force_cosmique"
+      },
+      {
+        "niveau": 53,
+        "attaque": "hydrocanon"
+      }
+    ]
   },
   "122": {
     "id": 122,
@@ -4238,7 +6335,76 @@
       "Acier": 1.0,
       "Fée": 1.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "charge"
+      },
+      {
+        "niveau": 3,
+        "attaque": "mimi_queue"
+      },
+      {
+        "niveau": 5,
+        "attaque": "frenesie"
+      },
+      {
+        "niveau": 8,
+        "attaque": "koud_korne"
+      },
+      {
+        "niveau": 11,
+        "attaque": "grimace"
+      },
+      {
+        "niveau": 15,
+        "attaque": "poursuite"
+      },
+      {
+        "niveau": 19,
+        "attaque": "repos"
+      },
+      {
+        "niveau": 24,
+        "attaque": "represailles"
+      },
+      {
+        "niveau": 29,
+        "attaque": "rengorgement"
+      },
+      {
+        "niveau": 35,
+        "attaque": "belier"
+      },
+      {
+        "niveau": 38,
+        "attaque": "puissance"
+      },
+      {
+        "niveau": 41,
+        "attaque": "psykoud_boul"
+      },
+      {
+        "niveau": 48,
+        "attaque": "vantardise"
+      },
+      {
+        "niveau": 50,
+        "attaque": "colere"
+      },
+      {
+        "niveau": 55,
+        "attaque": "mania"
+      },
+      {
+        "niveau": 63,
+        "attaque": "damocles"
+      },
+      {
+        "niveau": 71,
+        "attaque": "giga_impact"
+      }
+    ]
   },
   "129": {
     "id": 129,
@@ -4862,7 +7028,64 @@
       "Acier": 1.0,
       "Fée": 2.0
     },
-    "capacites": []
+    "capacites": [
+      {
+        "niveau": 1,
+        "attaque": "groz_yeux"
+      },
+      {
+        "niveau": 1,
+        "attaque": "ligotage"
+      },
+      {
+        "niveau": 5,
+        "attaque": "cage_eclair"
+      },
+      {
+        "niveau": 11,
+        "attaque": "ouragan"
+      },
+      {
+        "niveau": 15,
+        "attaque": "draco_rage"
+      },
+      {
+        "niveau": 21,
+        "attaque": "souplesse"
+      },
+      {
+        "niveau": 25,
+        "attaque": "hate"
+      },
+      {
+        "niveau": 31,
+        "attaque": "draco_queue"
+      },
+      {
+        "niveau": 35,
+        "attaque": "hydro_queue"
+      },
+      {
+        "niveau": 41,
+        "attaque": "draco_charge"
+      },
+      {
+        "niveau": 45,
+        "attaque": "rune_protect"
+      },
+      {
+        "niveau": 51,
+        "attaque": "danse_draco"
+      },
+      {
+        "niveau": 55,
+        "attaque": "colere"
+      },
+      {
+        "niveau": 61,
+        "attaque": "ultralaser"
+      }
+    ]
   },
   "148": {
     "id": 148,

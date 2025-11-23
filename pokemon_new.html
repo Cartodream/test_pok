@@ -2,13 +2,14 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Pokémon - Hakai Kousen</title>
+    <title>Pokémon</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
         .container { max-width: 1000px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
         .pokemon-header { text-align: center; margin-bottom: 30px; }
         .pokemon-name { font-size: 2.5em; color: #333; margin: 10px 0; }
         .pokemon-id { font-size: 1.2em; color: #666; }
+        .pokemon-image { width: 150px; height: 150px; margin: 15px 0; }
         .pokemon-types { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 15px 0; }
         .type-badge { padding: 5px 15px; border-radius: 20px; color: white; font-weight: bold; text-align: center; display: inline-flex; align-items: center; justify-content: center; min-width: 60px; }
         .type-plante { background-color: #78C850; }
@@ -26,7 +27,7 @@
         .type-roche { background-color: #B8A038; }
         .type-spectre { background-color: #705898; }
         .type-dragon { background-color: #7038F8; }
-        .type-tenebres { background-color: #000000; }
+        .type-tenebres { background-color: #000000;}
         .type-acier { background-color: #B8B8D0; }
         .type-fee { background-color: #EE99AC; }
         
@@ -56,11 +57,21 @@
         .back-link { display: inline-block; margin-bottom: 20px; color: #007bff; text-decoration: none; }
         .back-link:hover { text-decoration: underline; }
         .error { text-align: center; color: #d32f2f; font-size: 1.2em; }
+        .navigation { display: flex; justify-content: space-between; align-items: center; margin: 20px 0; }
+        .nav-btn { padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; border: none; cursor: pointer; }
+        .nav-btn:hover { background: #0056b3; }
+        .nav-btn:disabled { background: #ccc; cursor: not-allowed; }
     </style>
 </head>
 <body>
     <div class="container">
         <a href="liste_pokemon_gen1_grid.html" class="back-link">← Retour à la liste</a>
+        
+        <div class="navigation">
+            <button id="prev-btn" class="nav-btn" onclick="navigatePokemon(-1)">← Précédent</button>
+            <span id="pokemon-counter"></span>
+            <button id="next-btn" class="nav-btn" onclick="navigatePokemon(1)">Suivant →</button>
+        </div>
         
         <div id="pokemon-content">
             <div class="error">Chargement...</div>
@@ -70,9 +81,11 @@
     <script>
         async function loadPokemonData() {
             try {
-                const response = await fetch('pokemon_data.json');
-                const data = await response.json();
-                return data;
+                const pokemonResponse = await fetch('pokemon_data.json');
+                const attacksResponse = await fetch('attacks.json');
+                const pokemonData = await pokemonResponse.json();
+                const attacksData = await attacksResponse.json();
+                return { pokemon: pokemonData, attacks: attacksData };
             } catch (error) {
                 console.error('Erreur lors du chargement des données:', error);
                 return null;
@@ -174,6 +187,7 @@
                         <thead>
                             <tr>
                                 <th>Niveau</th>
+                                <th>Attaque</th>
                                 <th>Nom</th>
                                 <th>Type</th>
                                 <th>Description</th>
@@ -182,16 +196,35 @@
                             </tr>
                         </thead>
                         <tbody>
-                            ${pokemon.capacites.map(capacite => `
-                                <tr>
-                                    <td><span class="niveau-badge">${capacite.niveau}</span></td>
-                                    <td><strong>${capacite.nom}</strong></td>
-                                    <td><span class="type-badge ${getTypeClass(capacite.type)}">${capacite.type}</span></td>
-                                    <td>${capacite.description}</td>
-                                    <td>${capacite.de}</td>
-                                    <td>${capacite.effet}</td>
-                                </tr>
-                            `).join('')}
+                            ${pokemon.capacites.map(capacite => {
+                                const attack = window.attacksData[capacite.attaque];
+                                if (attack) {
+                                    return `
+                                        <tr>
+                                            <td><span class="niveau-badge">${capacite.niveau}</span></td>
+                                            <td>${attack.attaque || ''}</td>
+                                            <td><strong>${attack.nom}</strong></td>
+                                            <td><span class="type-badge ${getTypeClass(attack.type)}">${attack.type}</span></td>
+                                            <td>${attack.description || ''}</td>
+                                            <td>${attack.de || ''}</td>
+                                            <td>${attack.effet || ''}</td>
+                                        </tr>
+                                    `;
+                                } else {
+                                    // Afficher même si l'attaque n'existe pas dans attacks.json
+                                    return `
+                                        <tr style="background-color: #fff3cd;">
+                                            <td><span class="niveau-badge">${capacite.niveau}</span></td>
+                                            <td><em>${capacite.attaque}</em></td>
+                                            <td><strong>Attaque non trouvée</strong></td>
+                                            <td>-</td>
+                                            <td><em>Données manquantes</em></td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                    `;
+                                }
+                            }).join('')}
                         </tbody>
                     </table>
                 </div>
@@ -200,6 +233,9 @@
             content.innerHTML = `
                 <div class="pokemon-header">
                     <div class="pokemon-id">#${pokemon.id.toString().padStart(3, '0')}</div>
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" 
+                         alt="${pokemon.nom}" class="pokemon-image" 
+                         onerror="this.src='https://via.placeholder.com/150x150?text=?'">
                     <h1 class="pokemon-name">${pokemon.nom}</h1>
                     <div class="pokemon-types">${typesHtml}</div>
                 </div>
@@ -225,6 +261,25 @@
             `;
         }
 
+        function navigatePokemon(direction) {
+            const currentId = parseInt(new URLSearchParams(window.location.search).get('id'));
+            const newId = currentId + direction;
+            
+            if (newId >= 1 && newId <= 151) {
+                window.location.href = `pokemon_new.html?id=${newId}`;
+            }
+        }
+
+        function updateNavigation(currentId) {
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const counter = document.getElementById('pokemon-counter');
+            
+            prevBtn.disabled = currentId <= 1;
+            nextBtn.disabled = currentId >= 151;
+            counter.textContent = `${currentId} / 151`;
+        }
+
         async function init() {
             const urlParams = new URLSearchParams(window.location.search);
             const pokemonId = urlParams.get('id');
@@ -243,7 +298,8 @@
                 return;
             }
 
-            const pokemon = data[pokemonId];
+            window.attacksData = data.attacks;
+            const pokemon = data.pokemon[pokemonId];
             
             if (!pokemon) {
                 document.getElementById('pokemon-content').innerHTML = 
@@ -252,8 +308,18 @@
             }
 
             displayPokemon(pokemon);
+            updateNavigation(parseInt(pokemonId));
             document.title = `${pokemon.nom} - Hakai Kousen`;
         }
+
+        // Navigation au clavier
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') {
+                navigatePokemon(-1);
+            } else if (e.key === 'ArrowRight') {
+                navigatePokemon(1);
+            }
+        });
 
         init();
     </script>
